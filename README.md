@@ -1,8 +1,9 @@
-##Unredacting `<private>` `os_log()` messages on iOS.
+## Unredacting `<private>` `os_log()` messages on iOS.
+
 **tldr:** Save `com.apple.system.logging.plist` inside of `/Library/Preferences/Logging/` and execute `killall logd`.
 
--
-####Discovery
+
+#### Discovery
 The motivation for finding this came while working on a project that deals with resigning applications and installing them to a device. When trying to install an application that holds invalid entitlements, `installd` would produce the following log message:
 `entitlement <private> has value not permitted by provisioning profile <private>`. Seeing the real contents of this message would greatly reduce the amount of time I spent debugging entitlements.
 
