@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>discovery  </key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>debug</string>
+			<key>Persist</key>
+			<string>info</string>
+		</dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Public</string>
+	</dict>
+</dict>
+</plist>
