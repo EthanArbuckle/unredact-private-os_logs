@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>Debug</string>
+			<key>Enable</key>
+			<string>Debug</string>
+		</dict>
+		<key>TTL</key>
+		<dict>
+			<key>Debug</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>AddressCorrection</key>
+	<dict/>
+	<key>Autocomplete</key>
+	<dict/>
+	<key>BatchReverseGeocode</key>
+	<dict>
+		<key>Enable</key>
+		<string>Info</string>
+		<key>Persist</key>
+		<string>Info</string>
+	</dict>
+	<key>BusinessPortalBaseURL</key>
+	<dict/>
+	<key>Directions</key>
+	<dict/>
+	<key>ETA</key>
+	<dict/>
+	<key>ExperimentRequest</key>
+	<dict/>
+	<key>LocationShift</key>
+	<dict/>
+	<key>LogMessageUsageURL</key>
+	<dict>
+		<key>Enable</key>
+		<string>Info</string>
+        <key>Persist</key>
+        <string>Info</string>
+	</dict>
+	<key>PlaceDataLookup</key>
+	<dict/>
+	<key>ProblemOptIn</key>
+	<dict/>
+	<key>ProblemSubmission</key>
+	<dict/>
+	<key>ProblemStatus</key>
+	<dict/>
+	<key>SimpleETA</key>
+	<dict/>
+	<key>SpatialLookup</key>
+	<dict>
+		<key>Enable</key>
+		<string>Info</string>
+		<key>Persist</key>
+		<string>Info</string>
+	</dict>
+</dict>
+</plist>

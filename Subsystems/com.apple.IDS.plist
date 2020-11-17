@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>default</string>
+			<key>Enable</key>
+			<string>default</string>
+		</dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Public</string>
+	</dict>
+	<key>Delivery-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>IDSDelivery-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>MessageDelivery-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>UTun-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>Sysdiagnose-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>_IDSGroupSession-oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>QRAllocator-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>IDSDSession-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>WPLinkManager-oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

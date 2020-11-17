@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Debug</string>
+			<key>Persist</key>
+			<string>Debug</string>
+		</dict>
+		<key>TTL</key>
+		<dict>
+			<key>Debug</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+    <key>ProcessHandling</key>
+    <dict>
+        <key>Signpost-Scope</key>
+        <string>Process</string>
+        <key>Signpost-Persisted</key>
+        <true/>
+    </dict>
+</dict>
+</plist>

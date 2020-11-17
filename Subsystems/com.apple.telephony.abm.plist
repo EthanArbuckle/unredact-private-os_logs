@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Public</string>
+	</dict>
+	<key>power.mgr</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>3</integer>
+		</dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>Default</string>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>service.mgr</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>3</integer>
+		</dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>Default</string>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>boot.mod</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>2</integer>
+		</dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>Default</string>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

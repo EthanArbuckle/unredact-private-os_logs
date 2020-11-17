@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Debug</string>
+			<key>Persist</key>
+			<string>Debug</string>
+		</dict>
+	</dict>
+	<key>Default</key>
+	<dict/>
+	<key>Dashboard</key>
+	<dict/>
+	<key>Siri</key>
+	<dict/>
+	<key>StatusBar</key>
+	<dict/>
+	<key>TemplateUIHostApp</key>
+	<dict/>
+	<key>Workspace</key>
+	<dict/>
+	<key>SmartWidget</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Debug</string>
+			<key>Persist</key>
+			<string>Debug</string>
+		</dict>
+	</dict>
+	<key>InstrumentCluster</key>
+	<dict/>
+	<key>SplashScreen</key>
+	<dict/>
+	<key>MediaPlayer</key>
+	<dict/>
+	<key>Analytics</key>
+	<dict/>
+	<key>Diagnostics</key>
+	<dict>
+		<key>Enable-Fault-Crashlogs</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

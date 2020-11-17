@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Persist</key>
+			<string>default</string>
+			<key>Enable</key>
+			<string>default</string>
+		</dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Public</string>
+	</dict>
+	<key>UTun-oversized</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>GroupStatusNotification-oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+    <key>QRAllocator-oversized</key>
+    <dict>
+        <key>Enable-Oversize-Messages</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
