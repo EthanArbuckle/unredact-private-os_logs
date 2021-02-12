@@ -1,7 +1,11 @@
 ## Unredacting `<private>` `os_log()` messages on iOS.
 
-**tldr:** Save `com.apple.system.logging.plist` inside of `/Library/Preferences/Logging/` and execute `killall logd`.
+**tldr:** Save `com.apple.system.logging.plist` inside of `/Library/Preferences/Logging/` with `Enable-Private-Data` set to true and execute `killall logd`.
 
+SSH into your jailbroken phone and run:
+```
+echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>Enable-Private-Data</key><true/></dict></plist>' > /Library/Preferences/Logging/com.apple.system.logging.plist && killall logd
+```
 
 #### Discovery
 The motivation for finding this came while working on a project that deals with resigning applications and installing them to a device. When trying to install an application that holds invalid entitlements, `installd` would produce the following log message:
