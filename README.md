@@ -2,6 +2,7 @@
 
 **tldr:** Save `com.apple.system.logging.plist` inside of `/Library/Preferences/Logging/` and execute `killall logd`.
 
+*rootless path:* `/private/var/preferences/Logging/com.apple.system.logging.plist`
 
 #### Discovery
 The motivation for finding this came while working on a project that deals with resigning applications and installing them to a device. When trying to install an application that holds invalid entitlements, `installd` would produce the following log message:
